@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.App {
+  font-family: "Roboto", sans-serif;
+}
+.car-card {
+  width: 600px;
+  height: 230px;
+  border: 2px solid black;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.form-card {
+  background-color: white;
+  border: 1px solid black;
+  z-index: 100000 !important;
+}
+.MuiButtonBase-root
+  .MuiButton-root
+  .MuiButton-contained
+  .add-sales-btn
+  .MuiButton-containedPrimary {
+  margin-top: -10px !important;
+}
